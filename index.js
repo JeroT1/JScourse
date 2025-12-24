@@ -1,5 +1,10 @@
-const userName = 'Андрей'; // const — значение не изменится
-let userAge = 25;         // let — можно изменить позже
-userAge = 26;              // изменяем значение
-
-console.log(userName, userAge);
+const city = {
+    name: 'My city',
+    population: 8000000
+  };
+  
+  city.name = 'Dzerzhinsk';      // изменение свойства
+  city.country = 'RUSSIA';         // добавление свойства
+  delete city.population;       // удаление свойства
+  
+  console.log(city);
