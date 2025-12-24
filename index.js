@@ -1,10 +1,5 @@
-let month = 2;
-switch (month) {
-  case 12:
-  case 1:
-  case 2:
-    console.log("Winter");
-    break;
-  default:
-    console.log("Not a winter month");
-}
+let i = 0;
+do {
+  console.log(i); // 0
+  i++;
+} while (i < 0);
