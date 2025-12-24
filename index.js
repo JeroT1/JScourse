@@ -1,10 +1,10 @@
-function sumPositiveNums(a, b) {
-    if (typeof a !== "number" || typeof b !== "number") {
-      return "One of the arguments is not a number";
-    }
-    if (a <= 0 || b <= 0) {
-      return "Numbers are not positive";
-    }
-    return a + b;
-  }
-  console.log(sumPositiveNums(3, 8)); // 11
+let month = 2;
+switch (month) {
+  case 12:
+  case 1:
+  case 2:
+    console.log("Winter");
+    break;
+  default:
+    console.log("Not a winter month");
+}
