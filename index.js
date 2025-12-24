@@ -1,5 +1,4 @@
-// Function Declaration
-function sum(a, b) { return a + b; }
-
-// Function Expression
-const multiply = function(a, b) { return a * b; };
+function multiply(value, multiplier = 1) {
+    return value * multiplier;
+}
+console.log(multiply(5)); // 5
